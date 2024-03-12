@@ -1,1 +1,3 @@
-"# green-arch" 
+The idea of this project was to build a model for text-to-image generation, with a focus on sustainable architecture. The design prompt would include words indicating elements of "green" architecture, and the model would respond with an image reflecting an abstract and sophisticated idea of sustainable building.
+
+The project was divided into several phases, which sometimes occurred simultaneously. First, I had to build the dataset. Then, I needed to understand how StyleGAN works to be able to build my own model. After the learning process and several trials on my own dataset, on top of the pre-trained StyleGAN, VAE, and tokenizer models, I was able to train my final model. The last step focused on evaluation and fine-tuning.
